@@ -1,0 +1,7 @@
+*.csv
+*.h5
+*.zip
+*.ckpt
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
