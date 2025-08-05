@@ -1,4 +1,3 @@
-%%writefile README.md
 # ECG Classification
 
 A machine learning project that classifies ECG images into:
