@@ -1,6 +1,6 @@
 # ECG Classification
 
-A machine learning project that classifies ECG images into:
+A machine learning project that classifies ECG images into four classes:
 
 - Normal Rhythm
 - Myocardial Infarction (MI)
@@ -9,25 +9,47 @@ A machine learning project that classifies ECG images into:
 
 Built using Convolutional Neural Networks (CNN) and compared with traditional ML models (SVM, XGBoost, AdaBoost, EfficientNet).
 
+---
+
 ## Models Used
-- CNN
-- SVM
-- XGBoost
-- AdaBoost
-- EfficientNet
+
+-  CNN (Custom)
+-  EfficientNet (Pretrained)
+-  SVM, XGBoost, AdaBoost (Traditional ML)
+
+---
+
+## Results Summary
+
+| Model        | Accuracy | 
+|--------------|----------|
+| CNN          |   98%    | 
+| EfficientNet |   88%    | 
+| XGBoost      |   93%    | 
+| AdaBoost     |   95%    | 
+| SVM          |   93%    | 
+
+> Grad-CAM was used for model explainability.
+
+---
 
 ## Dataset
-- Collected from NIH, Mendeley, and Kaggle.
-- Stored in Google Drive (not uploaded due to size/privacy).
+
+Data was collected from publicly available sources:
+- Kaggle
+- Mendeley
+- NIH (National Institutes of Health)
+
+> Stored in Google Drive due to size and licensing — **not included in this repo**.
+
+---
 
 ## How to Run
-- Open Colab notebook
-- Mount Google Drive
-- Update data paths
-- Run training/evaluation
 
-## Results
-- CNN Accuracy: 0.98%
-- Best Ensemble Model: 0.88%
-...
+1. Open the notebook in [Google Colab](https://colab.research.google.com/)
+2. Mount your Google Drive
+3. Set data paths
+4. Run training or evaluation
+
+
 
